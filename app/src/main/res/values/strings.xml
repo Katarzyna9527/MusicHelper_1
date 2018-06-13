@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MusicHelper</string>
+
+    <string name="main_activity_title">Muzuczny pomocnik</string>
+
+    <string name="button_title_interval_rec">Rozpoznawanie interwałów</string>
+    <string name="button_title_triad_rec">Rozpoznawanie trójdźwięków</string>
+    <string name="button_title_play_sheet_music">Zagraj nuty</string>
+
+    <string name="text_view_recognize_interval">Zapodaj interwał :-)</string>
+    <string name="text_view_recognize_triad">Zapodaj trójdźwięk :-)</string>
+
+    <string name="button_record">Start Recording</string>
+    <string name="button_stop_recording">Stop Recording</string>
+    <string name="button_play">Play sound</string>
+    <string name="button_stop_playing">Stop playing</string>
+
+    <string name="Text_view_first_sound">Podaj pierwszy dzwięk :-)</string>
+    <string name="Text_view_second_sound">Podaj drugi dzwięk :-)</string>
+    <string name="Text_view_third_sound">Podaj trzeci dzwięk :-)</string>
+
+    <string name="titleDialogInterval">Rozpoznano interwał!!!</string>
+    <string name="titleDialogTriad">Rozpoznano trójdźwięk!!!</string>
+    <string name="messageInterval">Rozpoznany interwał to:</string>
+    <string name="messageTriad">Rozpoznany trójdźwięk to:</string>
+</resources>

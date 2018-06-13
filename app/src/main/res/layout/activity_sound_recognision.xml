@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nutyniebieskie"
+    tools:context=".View.SoundRecognisionActivity">
+
+    <TextView
+        android:id="@+id/textViewGiveSound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonStartRecording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/button_record" />
+
+    <Button
+        android:id="@+id/buttonStopRecording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/button_stop_recording" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/ic_action_name" />
+
+
+</LinearLayout>
